@@ -11,17 +11,95 @@ I am a quick learner, passionate about technology, and always eager to improve m
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# What are your strengths and weaknesses?
-Strengths:  
-“My biggest strength is my family. They are my main source of motivation and support, which keeps me focused and helps me stay determined to achieve my goals. Along with that, I am a quick learner and always willing to improve my skills.”  
+# MCQ Question  
 
-Weakness:  
-“One area I am working on is that I sometimes become too emotionally invested when it comes to my family, which can affect my focus. However, I am learning to maintain a better balance between my personal and professional life.”  
+## General Aptitude MCQs  
+1. What is the next number in the series?  
+2, 6, 12, 20, 30, ?  
+A) 36  
+B) 40  
+C) 42  
+D) 44  
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Why do you want to work here?
-“Sir/Ma’am, I want to work here because your company has a strong reputation for innovation and growth. As a Computer Science student, I am eager to apply my skills in C++, Java, Python, and JavaScript in a real-world environment. I believe this organization will give me the opportunity to learn, grow, and contribute to meaningful projects while continuously improving my technical and problem-solving skills.”  
+2. If 5 workers can complete a task in 10 days, how many days will 10 workers take?  
+A) 2  
+B) 5  
+C) 10  
+D) 20  
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 🔹 Programming (C++ / Java / Python)  
 
+3. What is the output of this code?    
+print(2 ** 3 ** 2)  
+A) 64  
+B) 512  
+C) 256  
+D) 16  
+
+4. Which data structure uses FIFO (First In First Out)?  
+A) Stack  
+B) Queue  
+C) Tree  
+D) Graph  
+
+5. In C++, which function is used to find the length of a string?  
+A) size()  
+B) length()  
+C) count()  
+D) Both A and B  
+
+## 🔹 Data Science / Python  
+
+6. Which library is used for data analysis in Python?  
+A) NumPy  
+B) Pandas  
+C) Matplotlib  
+D) TensorFlow  
+
+
+7. What does CSV stand for?  
+A) Comma Separated Values  
+B) Column Separated Values  
+C) Common Separated Values  
+D) Character Separated Values  
+
+
+## 🔹 DBMS / SQL  
+  
+8. Which SQL command is used to fetch data?  
+A) GET  
+B) FETCH  
+C) SELECT  
+D) EXTRACT  
+
+
+10. What is a primary key?  
+A) Duplicate value  
+B) Unique identifier  
+C) Null value  
+D) Foreign key  
+
+
+## 🔹 Logical Reasoning
+
+10. Find the odd one out:  
+A) Apple  
+B) Mango  
+C) Carrot  
+D) Banana  
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+#### 👉 Answer: 
+1. 42
+2. 5
+3. 512
+4. Queue
+5. Both A and B
+6. Pandas
+7. Comma Separated Values
+8. SELECT
+9. Unique identifier
+10. Carrot
