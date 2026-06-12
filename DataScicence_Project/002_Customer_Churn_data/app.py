@@ -4,13 +4,16 @@
 # Model is exported as model.pkl
 # Order of the x -> ['Age', 'Gender', 'Tenure', 'MonthlyCharges']
 
+from pathlib import Path
+
 import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
 
-scaler = joblib.load("scaler.pkl")
-model = joblib.load("model.pkl")
+BASE_DIR = Path(__file__).parent
+scaler = joblib.load(BASE_DIR / "scaler.pkl")
+model = joblib.load(BASE_DIR / "model.pkl")
 
 st.title("Churn Prediction App")
 

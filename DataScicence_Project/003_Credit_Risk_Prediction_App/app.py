@@ -1,11 +1,14 @@
 # 1 Good (Lower Risk) 0 Bad (Higher Risk)
 
+from pathlib import Path
+
 import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("extra_trees_credit_model.pkl")
-encoders = {col: joblib.load(f"{col}_encoder.pkl") for col in {"Sex", "Housing", "Saving accounts", "Checking account"}}
+BASE_DIR = Path(__file__).parent
+model = joblib.load(BASE_DIR / "extra_trees_credit_model.pkl")
+encoders = {col: joblib.load(BASE_DIR / f"{col}_encoder.pkl") for col in {"Sex", "Housing", "Saving accounts", "Checking account"}}
 
 st.title("Credit Risk Prediction App")
 st.write("Enter applicant information to predict if the credit risk is Good or Bad")
